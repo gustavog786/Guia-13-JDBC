@@ -46,7 +46,7 @@ public class ServicioMenu {
                     }
                     catch (Exception e) {
                         System.out.println(e.getMessage());
-                    }
+                    }  
                     break;
                 case 2:  
                     try {
@@ -88,7 +88,8 @@ public class ServicioMenu {
                 case 8:
                     
                     break;
-                case 0: break;
+                case 0: 
+                    break;
             }
         } while (opcion != 0);
         

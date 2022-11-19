@@ -161,7 +161,7 @@ public class ProductoDAO extends DAO {
             Collection<Producto> productos = new ArrayList();
             while (resultado.next()) {
                 producto = new Producto();
-                producto.setCodigo(resultado.getInt(1));
+                producto.setCodigo(resultado.getInt("Codigo"));
                 producto.setNombre(resultado.getString(2));
                 producto.setPrecio(resultado.getDouble(3));
                 producto.setCodigoFabricante(resultado.getInt(4));
